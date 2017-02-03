@@ -1,1 +1,0 @@
-p (1..10000).to_a.select{|n| n%3 == 0}.select{|n| n>5000}.sort!.reverse!
